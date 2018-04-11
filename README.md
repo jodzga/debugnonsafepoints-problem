@@ -308,5 +308,5 @@ Here we can see our hot loop and this time comments are correct. I tested with s
 
 # Final notes
 
-I reproduced thi problem on both Linux and MacOS with various versions of java 8. AFAICT this is a JVM bug. Hopefully this writeup will help fixing it.
+I reproduced this problem on both Linux and MacOS with various versions of java 8. AFAICT this is a JVM bug. Hopefully this writeup will help fixing it.
 
