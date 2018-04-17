@@ -1,6 +1,6 @@
 # DebugNonSafepoints problem
 
-This project reproduces situation where `-XX:+DebugNonSafepoints` flag generates incorrect data. With `-XX:+DebugNonSafepoints` JVM produces additional debug information but mapping between JIT generated code and Java method names is incorrect.
+This project reproduces situation where `-XX:+DebugNonSafepoints` flag generates incorrect data. With `-XX:+DebugNonSafepoints` JVM produces additional debug information but mapping between JIT generated code and Java method names is incorrect. This issue is now being tracked as [JDK-8201516](https://bugs.openjdk.java.net/browse/JDK-8201516).
 
 Program under test is very simple:
 
